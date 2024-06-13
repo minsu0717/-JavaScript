@@ -76,4 +76,19 @@ foo 함수에 대한 선언을 호이스팅하여 global 객체에 등록시키�
     console.log(counter()) // 1
     console.log(counter()) // 2
     console.log(counter()) // 3
-    
+
+## this
+this 키워드는 자신이 속한 객체를 가리키는 식별자를 참조할 수 있는 키워드
+
+## Promise
+비동기 작업이 맞이할 미래의 완료 또는 실패와 그 결과 값을 나타낸다.
+
+Promise는 비동기 연산이 종료된 이후에 결과 값과 실패 사유를 처리하기 위한 처리기를 연결할 수 있습니다.
+
+## Promise와 Async,Await의 차이
+Promise는 .catch()를 통해 에러 핸들링이 가능하지만, async/await은 try-catch()문을 사용해야 한다.
+
+## undefined , null 차이
+undefined는 값이 할당되지 않앗음을 의미
+
+null은 빈 값을 의미
